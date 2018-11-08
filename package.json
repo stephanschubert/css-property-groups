@@ -1,0 +1,32 @@
+{
+  "name": "@stephanschubert/css-property-groups",
+  "version": "0.0.1",
+  "description": "CSS properties grouped by category.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanschubert/css-property-groups.git"
+  },
+  "author": {
+    "name": "Stephan Schubert",
+    "email": "stephan@frozencherry.de",
+    "url": "https://stephanschubert.com"
+  },
+  "keywords": [
+    "css",
+    "property",
+    "groups",
+    "spec"
+  ],
+  "bugs": {
+    "url": "https://github.com/stephanschubert/css-property-groups/issues"
+  },
+  "homepage": "https://github.com/stephanschubert/css-property-groups",
+  "devDependencies": {
+    "jest": "23.6.0"
+  }
+}
