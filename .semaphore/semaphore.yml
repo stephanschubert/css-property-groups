@@ -1,0 +1,23 @@
+version: v1.0
+name: Test and build @stephanschubert/css-property-groups
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Setup and test
+    task:
+      env_vars:
+        - name: SEMAPHORE_GIT_URL
+          value: git@github.com:stephanschubert/css-property-groups.git
+        - name: NODE_ENV
+          value: test
+      prologue:
+        commands:
+          - checkout
+          - npm install
+      jobs:
+        - name: npm test
+          commands:
+            - node --version
+            - npm test
