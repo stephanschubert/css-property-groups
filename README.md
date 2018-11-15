@@ -3,10 +3,16 @@
 </h1>
 
 <p align="center">
-  <a href="./package.json">
+  <a style="display: inline-block;" href="https://github.com/stephanschubert/css-property-groups/blob/master/LICENSE.md">
     <img
-      src="https://img.shields.io/david/stephanschubert/css-property-groups.svg"
-      alt="dependencies"
+      src="https://img.shields.io/github/license/stephanschubert/css-property-groups.svg?style=flat-square"
+      alt="License"
+    />
+  </a>
+  <a style="display: inline-block;" href="https://github.com/stephanschubert/css-property-groups/blob/master/package.json">
+    <img
+      src="https://img.shields.io/david/stephanschubert/css-property-groups.svg?style=flat-square"
+      alt="Dependencies"
     />
   </a>
 </p>
@@ -22,3 +28,5 @@ Do you have suggestions or feedback?
 
 - Stephan Schubert ([@stephanschubert](https://twitter.com/stephanschubert))
   &middot; [Website](https://stephanschubert.com)
+
+&copy; 2018
